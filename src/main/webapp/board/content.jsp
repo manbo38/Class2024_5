@@ -39,7 +39,7 @@
 		<td>작성자</td>
 		<td><%=board.getWriter() %></td>
 		<td>작성일</td>
-		<td><%=board.getReg_date() %></td>
+		<td><%=sd.format(board.getReg_date()) %></td>
 	</tr>
 	<tr>
 		<td>제목</td>
